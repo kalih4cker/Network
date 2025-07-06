@@ -1,5 +1,19 @@
 # Network
+Computer networking is the practice of connecting two or more computers or devices together to share information, resources, and data through wired or wireless communication systems.
 
+💡 In Simple Words:
+Computer networking means linking computers so they can talk to each other, share files, access the internet, or use shared devices like printers.
+
+📌 Key Points in the Definition:
+Connects: Two or more devices (like computers, phones, printers)
+
+Communication: Data is transferred using signals (like cables or Wi-Fi)
+
+Purpose: To share information, resources, and services
+
+Mediums: Can be wired (Ethernet cables) or wireless (Wi-Fi, Bluetooth)
+
+### Refrence
 [CompTIA Network+](https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8)
 
 # OSI Model
