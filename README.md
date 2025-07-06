@@ -124,7 +124,7 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Router**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/4f4820fd-4f0d-4641-bec6-80d26b902de7/image.png)
+![image](https://github.com/user-attachments/assets/2727f6ee-d378-4e53-b0a6-6a980e3ec4e6)
 
 - **Role**: Routes traffic between different IP subnets, ensuring data reaches the right network.
 - **OSI Layer**: Operates at **Layer 3** (Network Layer) by using IP addresses to forward packets.
@@ -135,7 +135,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Switch**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/05e3877a-b4c7-4d01-a6e8-bf06285a6411/image.png)
+![image](https://github.com/user-attachments/assets/fe1cf75e-f301-4a49-bfb2-bda487a94dbd)
+
 
 - **Role**: Forwards data between devices in the same network, ensuring they can communicate without congestion.
 - **OSI Layer**: Operates at **Layer 2** (Data Link Layer), using **MAC addresses** to identify devices.
@@ -145,7 +146,7 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Firewall**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/5fb46c35-154c-43ee-8dd9-be595a3d7bca/image.png)
+![image](https://github.com/user-attachments/assets/94b82193-2cba-499f-a4c0-5b17b230dcd8)
 
 - **Role**: Filters network traffic based on security rules to protect the network from unauthorized access.
 - **OSI Layer**: Primarily operates at **Layer 4** (Transport Layer) but can also function up to **Layer 7** (Application Layer) in advanced models.
@@ -155,7 +156,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Intrusion Detection System (IDS) / Intrusion Prevention System (IPS)**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/4fcd3bd8-5b5f-4257-98c1-92c96db49835/image.png)
+![image](https://github.com/user-attachments/assets/c8629885-0ee9-413a-8f33-19e7caed8376)
+
 
 - **Role**: IDS monitors network traffic for signs of suspicious activity, while IPS also actively blocks potential threats.
 - **OSI Layer**: Operates primarily at **Layer 3** (Network Layer) and **Layer 4** (Transport Layer), with some advanced systems inspecting up to **Layer 7** (Application Layer).
@@ -165,7 +167,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Load Balancer**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/0b9bddfb-e0a9-4225-bde9-fc8be4193f17/image.png)
+![image](https://github.com/user-attachments/assets/e3b85d16-4dd8-41b0-8c21-c2afe948027b)
+
 
 - **Role**: Distributes incoming network traffic across multiple servers to prevent any single server from becoming overwhelmed.
 - **OSI Layer**: Works at **Layer 4** (Transport Layer) or **Layer 7** (Application Layer), depending on how it is configured.
@@ -175,7 +178,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Proxy Server**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/b4369c40-8833-42a6-9440-984b54b41281/image.png)
+![image](https://github.com/user-attachments/assets/96a11b8f-f513-4a25-aa8f-c56787bc1d5a)
+
 
 - **Role**: Acts as an intermediary between users and the internet, handling requests on behalf of the user.
 - **OSI Layer**: Operates at **Layer 7** (Application Layer).
@@ -185,7 +189,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Network Attached Storage (NAS) vs. Storage Area Network (SAN)**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/ee8834c3-e055-4541-84b4-a6a772511100/image.png)
+![image](https://github.com/user-attachments/assets/9d6dd683-b9db-4f1a-9879-81ad81d20554)
+
 
 - **NAS**:
     - **Role**: Provides file-level storage accessible over a network, allowing multiple users to store and access files.
@@ -198,7 +203,8 @@ The Application Layer is the top layer, providing network services directly to u
 
 ### **Access Point (AP)**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/e8923170-aafd-4f05-b544-7cb87e2e3f75/image.png)
+![image](https://github.com/user-attachments/assets/85bfc068-49be-4edf-9bac-3c1f15303f0a)
+
 
 - **Role**: Provides wireless connectivity for devices, extending a wired network to wireless devices.
 - **OSI Layer**: Operates at **Layer 2** (Data Link Layer), bridging wireless devices with the wired LAN.
@@ -385,8 +391,6 @@ Ports are essential components in networking that allow multiple services to run
 
 - Used to make services on a private network accessible from the internet.
 - **Example**: If you're hosting a web server on your home network, you might set up port forwarding on your router to direct incoming traffic on port 80 to your server's local IP address.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/a2ac1f62-fb8d-4d43-834e-132157ef5dfd/image.png)
 
 # Protocols
 
@@ -643,8 +647,6 @@ A loopback address is a special IP address used by a device to refer to itself. 
 
 **Software-Defined Networking (SDN)** is a modern approach to network management that aims to improve flexibility, scalability, and efficiency. It decouples the control plane (which decides where traffic is sent) from the data plane (which forwards traffic to its destination). This separation allows network administrators to manage network services through a centralized controller.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/5f233043-c86b-4042-a45b-b1020969f040/image.png)
-
 SDN is nothing but virtualization of networking
 
 - **Controller (Control Plane)**:
@@ -691,8 +693,6 @@ IPv6 addresses can be shortened by removing leading zeros in each group and repl
 ### **IPv6 Subnetting**
 
 IPv6 uses a simplified subnetting process compared to IPv4. The first 64 bits typically represent the network portion, while the last 64 bits are for the interface identifier
-
-[Remote login ](https://www.notion.so/Remote-login-15e476499822808cbfaaca55d231dc8e?pvs=21)
 
 # Remote Login
 
@@ -747,8 +747,6 @@ The protocols used for VPN
 
 -Indirect network connection to other locations and services with your PC or mobile devices
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/bdd22286-e596-44b6-b3d7-ef32958e79f6/image.png)
-
 Applications
 
 -Monitoring and Filtering
@@ -784,4 +782,3 @@ The **three-way handshake** is a process used in TCP (Transmission Control Proto
 
 For TCP Communication needs to work with a flag here is all TCP flag
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/a6e8375f-c1ed-4de2-8d29-ed683a1fe3d1/image.png)
