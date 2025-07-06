@@ -5,10 +5,8 @@
 # OSI Model
 
 -Open Systems Interconnection Reference Model
+![image](https://github.com/user-attachments/assets/65121c94-d1a5-4d1a-81fd-1efeab085bf3)
 
-[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/6dbffc91-fc9b-4ba1-a60d-d22c7777ed94/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0ffce008-802c-4487-8685-2b507e4fe76a/7aec4ef9-feed-475d-a096-5d029aa56be1/image.png)
 
 ## **Physical Layer (Layer 1)**
 
